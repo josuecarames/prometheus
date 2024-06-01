@@ -14,13 +14,13 @@ scrape_configs:
 
   - job_name: 'node_exporter'
     static_configs:
-      - targets: ['prometheus-server.josuecarames.com:9100', 'mysql.josuecarames.com:9100', 'uptime-server.josuecarames.com:9100', 'traefik.josuecarames.com:9100', 'portainer-server.josuecarames.com:9100', 'homepage.josuecarames.com:9100', 'authentik-server.josuecarames.com:9100', 'dns.josuecarames.com:9100', 'dns-backup.josuecarames.com:9100', 'cloudflare.josuecarames.com:9100', 'cloudflare-backup.josuecarames.com:9100', 'www-server.josuecarames.com:9100', 'ntfy-server.josuecarames.com:9100', 'vscode-server.josuecarames.com:9100']
+      - targets: ['prometheus-server.josuecarames.com:9100', 'mysql.josuecarames.com:9100', 'uptime-server.josuecarames.com:9100', 'traefik.josuecarames.com:9100', 'portainer-server.josuecarames.com:9100', 'homepage.josuecarames.com:9100', 'authentik-server.josuecarames.com:9100', 'dns.josuecarames.com:9100', 'dns-backup.josuecarames.com:9100', 'cloudflare.josuecarames.com:9100', 'cloudflare-backup.josuecarames.com:9100', 'www-server.josuecarames.com:9100', 'ntfy-server.josuecarames.com:9100', 'vscode-server.josuecarames.com:9100', 'ollama-server.josuecarames.com:9100']
 
   ################## cAdvisor ##################
 
   - job_name: 'cadvisor'
     static_configs:
-      - targets: ['prometheus-server.josuecarames.com:8080', 'mysql.josuecarames.com:8080', 'uptime-server.josuecarames.com:8080', 'traefik.josuecarames.com:8080', 'portainer-server.josuecarames.com:8080', 'homepage.josuecarames.com:8080', 'authentik-server.josuecarames.com:8080', 'dns.josuecarames.com:8080', 'dns-backup.josuecarames.com:8080', 'cloudflare.josuecarames.com:8080', 'cloudflare-backup.josuecarames.com:8080', 'www-server.josuecarames.com:8080', 'ntfy-server.josuecarames.com:8080', 'vscode-server.josuecarames.com:8080']
+      - targets: ['prometheus-server.josuecarames.com:8080', 'mysql.josuecarames.com:8080', 'uptime-server.josuecarames.com:8080', 'traefik.josuecarames.com:8080', 'portainer-server.josuecarames.com:8080', 'homepage.josuecarames.com:8080', 'authentik-server.josuecarames.com:8080', 'dns.josuecarames.com:8080', 'dns-backup.josuecarames.com:8080', 'cloudflare.josuecarames.com:8080', 'cloudflare-backup.josuecarames.com:8080', 'www-server.josuecarames.com:8080', 'ntfy-server.josuecarames.com:8080', 'vscode-server.josuecarames.com:8080', 'ollama-server.josuecarames.com:8080']
 
   ################## MySQL ##################
 
