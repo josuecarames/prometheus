@@ -42,4 +42,4 @@ scrape_configs:
   
   - job_name: 'nvidia_gpu'
     static_configs:
-      - targets: ['ollama-server.josuecarames.com:9445']
+      - targets: ['ollama-server.josuecarames.com:9835']
