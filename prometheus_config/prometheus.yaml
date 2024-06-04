@@ -38,4 +38,8 @@ scrape_configs:
         # The mysqld_exporter host:port
         replacement: mysql.josuecarames.com:9104
 
-  ################## TBD ##################
+  ################## NVIDIA GPU ##################
+  
+  - job_name: 'nvidia_gpu'
+    static_configs:
+      - targets: ['ollama-server.josuecarames.com:9445']
